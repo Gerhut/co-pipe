@@ -8,7 +8,7 @@ module.exports = function () {
     const streams = Array.from(arguments)
     const headStream = streams[0]
     const tailStream = streams[streams.length - 1]
-    for (let stream of streams) {
+    for (const stream of streams) {
       if (!stream.writable && stream !== headStream) {
         const error = new TypeError('Stream is not writable')
         error.stream = stream
@@ -22,7 +22,7 @@ module.exports = function () {
     }
 
     let lastStream
-    for (let stream of streams) {
+    for (const stream of streams) {
       if (lastStream != null) {
         lastStream.pipe(stream)
       }

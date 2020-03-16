@@ -1,6 +1,5 @@
 # co-pipe
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Gerhut/co-pipe.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/Gerhut/co-pipe.svg?branch=master)](https://travis-ci.org/Gerhut/co-pipe)
 [![Coverage Status](https://coveralls.io/repos/github/Gerhut/co-pipe/badge.svg?branch=master)](https://coveralls.io/github/Gerhut/co-pipe?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
